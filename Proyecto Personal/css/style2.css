@@ -11,18 +11,19 @@ html {
   line-height: 1.15;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+
 }
 
 /*Contenidos*/
 body{
 margin: 0;
 min-height: 100v/h;
-display: flex;
+dissplay: flex;
 align-items: center;
 text-align: center;
 justify-content: center;
-background: linear-gradient(#4671EA,#AC34E7);
-backgrounds-image: url("../img/black.jpg");
+backgrkound: linear-gradient(#028738,#028738);
+background-image: url("../img/black.jpg");
 background-size: 120rem;
 flex-direction:column
 
@@ -179,6 +180,7 @@ border-radius: 12px;
 padding: 30px 10px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 cursor: default;
+background-color: white;
 transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
@@ -674,4 +676,20 @@ header nav .tabs .tab.is-active a[data-switcher] {
 .contact .content {
   margin: 0 auto;
   padding: 30px 0;
+}
+
+.menu{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+section#contact2 {
+  padding-top: 0px;
+}
+.accordion2{
+margin: 0 15px 3em 15px;
+  padding: 15px;
+  border-radius: 8px;
 }
